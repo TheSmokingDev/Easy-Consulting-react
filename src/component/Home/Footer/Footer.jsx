@@ -30,17 +30,17 @@ const Footer = () => {
                                 </Link>
                         </li>
                         <li>
-                            <Link onClick={scrollUP} to="/">
+                            <Link onClick={scrollUP} to="https://x.com/mahotechsolutions">
                                 <FontAwesomeIcon icon={faTwitter}/>
                                 </Link>
                         </li>
                         <li>
-                            <Link onClick={scrollUP} to="/">
+                            <Link onClick={scrollUP} to="https://instageram.com/mahotechsolutions">
                                 <FontAwesomeIcon icon={faInstagram}/>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={scrollUP} to="/">
+                            <Link onClick={scrollUP} to="https://linkedin.com/mahotechsolutions">
                                 <FontAwesomeIcon icon={faLinkedinIn}/>
                             </Link>
                         </li>
