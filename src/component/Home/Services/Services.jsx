@@ -7,6 +7,7 @@ const Services = () => {
     
     useEffect(() => {
         setServices([
+            {name: "AI Solutions", description: "We can help advise, build and deploy AI based software to suit your needs", price: "From $200"},
             {name: "Custom Website Development", description: "Tailored websites to meet your specific needs", price: "From $200"},
             {name: "Ecommerce Stores", description: "Build and optimize online stores to boost your sales", price: "From $500"},
             {name: "Brochure Websites", description: "Create professional websites to showcase your business", price: "From $300"},
