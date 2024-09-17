@@ -1,4 +1,3 @@
-import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Service from './Service';
 import Spinner from '../../Shared/Spinner/Spinner';

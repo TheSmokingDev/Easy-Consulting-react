@@ -6,12 +6,9 @@ import { faBuffer } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import PopOver from '../PopOver/PopOver';
-import { useAppContext } from '../../../context';
 
 
 const NavBar = () => {
-    const { state: { user } } = useAppContext()
     const [isSticky, setSticky] = useState(false)
 
     useEffect(() => {

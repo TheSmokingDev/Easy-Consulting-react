@@ -6,7 +6,6 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import HappyClient from '../HappyClient/HappyClient';
 import Header from '../Header/Header';
-import Pricing from '../Pricing/Pricing';
 import Reviews from '../Reviews/Reviews';
 import Services from '../Services/Services';
 import TechStack from "../BrowserSupport/TeckStack";

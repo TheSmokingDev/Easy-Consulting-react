@@ -2,9 +2,7 @@ import Home from "../src/component/Home/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import React, { createContext } from "react";
 import About from "./component/Home/About/About";
-import Dashboard from "./component/Dashoboard/Dashboard/Dashboard";
 import LoginModal from "./component/Login/LoginModal";
-import PrivateRoute from "./component/Login/PrivateRoute";
 import NotFound from "./component/NotFound";
 export const UserContext = createContext();
 

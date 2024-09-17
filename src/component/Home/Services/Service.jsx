@@ -7,7 +7,7 @@ import { useAppContext } from '../../../context';
 
 const Service = ({service}) => {
     const { state:{ admin}, dispatch } = useAppContext()
-    const {name, price, description, img} = service;
+    const {name, description, img} = service;
 
     const handleSelectedService = (service) => {
         dispatch({type: 'SELECTED_SERVICE', payload: service})
