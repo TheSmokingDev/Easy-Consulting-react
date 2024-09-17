@@ -6,10 +6,25 @@ import contactImg from '../../../Assets/contact.svg';
 import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
-    const handleSubmit = event => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
-        event.target.reset();
-    }
+        const target = event.target;
+
+        const formData = new FormData(target);
+        const data = {
+            name: formData.get('name'),
+            email: formData.get('email'),
+            subject: formData.get('subject'),
+            message: formData.get('message')
+        };
+        console.log(data);
+
+        fetch("./.netlify/functions/triggerSubscribeEmail", {
+            method: "POST",
+            body: JSON.stringify(data)
+        }).then(()=> alert(`Enquiry sent successfully`)).catch(()=> alert(`Enquiry failed`));
+
+    };
     return (
         <section id="contact">
             <Col md={11} className="mx-auto">
@@ -21,16 +36,16 @@ const Contact = () => {
                                 <h5 className="sectionTitle">GET IN TOUCH</h5>
                                 <Row>
                                     <Col md={12} lg={6}>
-                                        <input placeholder="Your Name" type="text" required/>
+                                        <input placeholder="Your Name" name="name" type="text" required/>
                                     </Col>
                                     <Col md={12} lg={6}>
-                                        <input placeholder="Your Email" type="email" required/>
+                                        <input placeholder="Your Email" name="email" type="email" required/>
                                     </Col>
                                     <Col md={12}>
-                                        <input placeholder="Subject" type="text" required/>
+                                        <input placeholder="Subject" name="subject" type="text" required/>
                                     </Col>
                                     <Col md={12}>
-                                        <textarea placeholder="Your Message..." required></textarea>
+                                        <textarea name="message" placeholder="Your Message..." required></textarea>
                                     </Col>
                                 </Row>
                                 <button className="branBtn" type="submit">Submit Now</button>

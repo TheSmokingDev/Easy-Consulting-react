@@ -5,8 +5,7 @@ export const usefulLink = [
     {name: 'Home', id: 1},
     {name: 'About us', id: 2},
     {name: 'Services', id: 3},
-    {name: 'Team', id: 4},
-    {name: 'Blog', id: 5}
+
 ]
 export const ourServices = [
     {name: 'Custom Website Development', id: 6},
