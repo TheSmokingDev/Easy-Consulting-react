@@ -39,7 +39,7 @@ const Contact = () => {
                     </Col>
                     <Col md={6}>
                         <Fade duration={2000} right>
-                            <img src={`${contactImg}`} alt="" className="img-fluid"/>
+                            <img src={`${contactImg}`} alt="Contact Us" className="img-fluid"/>
                         </Fade>
                     </Col>
                 </Row>

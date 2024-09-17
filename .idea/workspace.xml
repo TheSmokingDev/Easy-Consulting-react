@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ffa7ea-fdd2-4b3b-b1cf-7c902d1c90d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Home/BrowserSupport/BrowserSupport.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Home/BrowserSupport/BrowserSupport.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Home/BrowserSupport/TeckStack.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Home/BrowserSupport/TeckStack.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Home/Contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Home/Contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Home/Services/Service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Home/Services/Service.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
       <updated>1726543480223</updated>
       <workItem from="1726543481276" duration="802000" />
       <workItem from="1726544345275" duration="8422000" />
-      <workItem from="1726563158462" duration="465000" />
+      <workItem from="1726563158462" duration="1082000" />
     </task>
     <servers />
   </component>

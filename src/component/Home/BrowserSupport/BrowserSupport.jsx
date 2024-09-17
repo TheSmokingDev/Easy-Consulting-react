@@ -65,12 +65,11 @@ const BrowserSupport = () => {
                                 flexDirection={'column'}
                                 alignItems={'center'}
                             >
-                                <Box
-                                    component={Avatar}
-                                    width={80}
-                                    height={80}
+                                <Avatar
+                                    style={{width: '90px', height: '90px'}}
                                     marginBottom={2}
                                     src={item.icon}
+                                    alt={`Icon of ${item.title}`}
                                 />
                                 <Typography
                                     variant={'h6'}
