@@ -9,22 +9,20 @@ export const usefulLink = [
     {name: 'Blog', id: 5}
 ]
 export const ourServices = [
-    {name: 'Strategy & Research', id: 6},
-    {name: 'Web Design', id: 7},
-    {name: 'Web Development', id: 8},
-    {name: 'Digital Marketing', id: 9},
-    {name: 'Graphic Design', id: 10}
+    {name: 'Custom Website Development', id: 6},
+    {name: 'Ecommerce Stores', id: 7},
+    {name: 'Brochure Websites', id: 8},
+    {name: 'App Development', id: 9},
+    {name: 'Cloud Architecture', id: 9},
+    {name: 'Deployment & DevOps', id: 9},
+    {name: 'Consulting', id: 10}
 ]
 export const otherLinks = [
-    {name: 'FAQ', id: 11},
-    {name: 'Portfolio', id: 12},
-    {name: 'Privacy Policy', id: 13},
-    {name: 'Terms & Conditions', id: 14},
     {name: 'Support', id: 15},
 ]
 
 export const footerInfo = [
-    {icon: faBuffer, info1: 'EASY CONSULTING', id: 1},
-    {icon: faMobileAlt, info1: '+13322176301', info2: 'ujjalzaman@gmail.com', id: 2},
-    {icon: faMapMarkedAlt, info1: 'bronx,new york, USA', info2: 'Nevada,USA', id: 3}
+    {icon: faBuffer, info1: 'MAHO Tech Solutions', id: 1},
+    {icon: faMobileAlt, info1: '+61421012523', info2: 'moe@mahotechsolutions.com.au', id: 2},
+    {icon: faMapMarkedAlt, info1: 'Melbourne CBD', info2: 'Victoria Australia', id: 3}
 ];

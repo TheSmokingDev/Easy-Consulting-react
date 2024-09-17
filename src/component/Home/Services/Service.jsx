@@ -23,7 +23,7 @@ const Service = ({service}) => {
                     <h4 className="serviceName">{name}</h4>
                     <p className="serviceDes">{description}</p>
                     <div className="bookingBox">
-                        <p className="servicePrice">${price}</p>
+                        {/*<p className="servicePrice">{price}</p>*/}
                         <Link className="serviceLink" to={admin ? '/dashboard/orderList' : '/dashboard/book'}>
                             <button className="bookingBtn" 
                             onClick={handleSelectedService}

@@ -7,8 +7,17 @@ const Services = () => {
     const [services, setServices] = useState([])
     
     useEffect(() => {
-        axios.get('https://immense-river-40491.herokuapp.com/services')
-        .then(res => setServices(res.data))
+        setServices([
+            {name: "Custom Website Development", description: "Tailored websites to meet your specific needs", price: "From $200"},
+            {name: "Ecommerce Stores", description: "Build and optimize online stores to boost your sales", price: "From $500"},
+            {name: "Brochure Websites", description: "Create professional websites to showcase your business", price: "From $300"},
+            {name: "App Development", description: "Develop custom mobile and web applications to enhance user engagement", price: "From $800"},
+            {name: "Data Pipelines", description: "Design and implement robust data processing systems", price: "Contact for details"},
+            {name: "Cloud Architecture", description: "Develop scalable cloud solutions for your business", price: "Contact for details"},
+            {name: "Deployment & DevOps", description: "Streamline your development and deployment processes", price: "Contact for details"},
+            {name: "Consulting", description: "Expert advice to guide your technology strategy", price: "Contact for details"}
+        ]);
+
     }, [])
 
     return (

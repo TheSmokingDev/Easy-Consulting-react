@@ -22,7 +22,7 @@ const Footer = () => {
                 <Col md={6} lg={3} className="fAboutUs">
                     <h5>ABOUT US</h5>
                     <span className="animate-border"></span>
-                    <p className="aboutUsDes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate quod facere quas rem quaerat.</p>
+                    <p className="aboutUsDes">Empowering Innovation with Expert Solutions.</p>
                     <ul className="socialIcons">
                         <li>
                             <Link onClick={scrollUP} to="/" >
@@ -50,7 +50,7 @@ const Footer = () => {
                 <FooterCol key="3" menuItems={ourServices} title="OUR SERVICES"/>
                 <FooterCol key="4" menuItems={otherLinks} title="OTHER LINKS"/>
             </Row>
-            <p className="copyRight">Copyright &copy; 2021 <span className="fHighlight">Ujjal zaman</span>. All rights reserved.</p>
+            <p className="copyRight">Copyright &copy; 2024 <span className="fHighlight">MAHO Tech Solutions</span>. All rights reserved.</p>
         </section>
     );
 };

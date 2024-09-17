@@ -29,7 +29,7 @@ const NavBar = () => {
         <Navbar className={`navbar navbar-expand-lg navbar-light ${isSticky ? "navStyle" : "navDefault"}`} expand="lg">
             <Container>
                 <Navbar.Brand as={Link} to="/" onClick={scrollTop} className="navBrn">
-                    <FontAwesomeIcon icon={faBuffer} className="brnIcon" /> Easy <span className="navHighlight">Consulting</span>
+                    <FontAwesomeIcon icon={faBuffer} className="brnIcon" /> MAHO <span className="navHighlight">Tech Solutions</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" />
@@ -44,23 +44,9 @@ const NavBar = () => {
                         <Nav.Item>
                             <Nav.Link href="#testimonial" className="nav-link">Reviews</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="#contact" className="nav-link">Contact Us</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link as={Link} to="/dashboard/profile" className="nav-link">Dashboard</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            {
-                                user.email ?
-                                    <div>
-                                        <PopOver />
-                                    </div> :
-                                    <Link to="/login">
-                                        <button className="loginBtn">Login</button>
-                                    </Link>
-                            }
-                        </Nav.Item>
+                        <Link to={"#contact"}>
+                            <button className="loginBtn">Contact Us</button>
+                        </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

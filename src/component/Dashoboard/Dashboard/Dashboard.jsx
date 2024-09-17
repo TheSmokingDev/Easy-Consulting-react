@@ -38,27 +38,27 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
-            <div id="pageContent">
-                <div className="dashBoardHeader">
-                    <div className="d-flex align-items-center">
-                        <div id="nav-icon"
-                        className={sideToggle ? "menu-btn" : "menu-btn open"}
-                        onClick={() => setSideToggle(!sideToggle)}>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <h3>{title}</h3>
-                    </div>
-                    <PopOver/> 
-                </div>
-                 {
-                    admin ? <AdminDashboard/> : <UserDashboard/>
-                } 
-            </div>
+            {/*<div id="pageContent">*/}
+            {/*    <div className="dashBoardHeader">*/}
+            {/*        <div className="d-flex align-items-center">*/}
+            {/*            <div id="nav-icon"*/}
+            {/*            className={sideToggle ? "menu-btn" : "menu-btn open"}*/}
+            {/*            onClick={() => setSideToggle(!sideToggle)}>*/}
+            {/*                <span></span>*/}
+            {/*                <span></span>*/}
+            {/*                <span></span>*/}
+            {/*                <span></span>*/}
+            {/*                <span></span>*/}
+            {/*                <span></span>*/}
+            {/*            </div>*/}
+            {/*            <h3>{title}</h3>*/}
+            {/*        </div>*/}
+            {/*        <PopOver/> */}
+            {/*    </div>*/}
+            {/*     {*/}
+            {/*        admin ? <AdminDashboard/> : <UserDashboard/>*/}
+            {/*    } */}
+            {/*</div>*/}
         </div>
     )
 }

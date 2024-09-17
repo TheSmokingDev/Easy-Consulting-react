@@ -9,7 +9,6 @@ const Contact = () => {
     const handleSubmit = event => {
         event.preventDefault();
         event.target.reset();
-        // swal("Thank You!", "We appreciate you contacting us!", "success");
     }
     return (
         <section id="contact">

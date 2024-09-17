@@ -15,14 +15,14 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<LoginModal />} />
-        <Route
-          path="/dashboard/*"
-          element={
-            <PrivateRoute redirectTo="/login">
-              <Dashboard />
-            </PrivateRoute>
-          }
-        />
+        {/*<Route*/}
+        {/*  path="/dashboard/*"*/}
+        {/*  element={*/}
+        {/*    <PrivateRoute redirectTo="/login">*/}
+        {/*      <Dashboard />*/}
+        {/*    </PrivateRoute>*/}
+        {/*  }*/}
+        {/*/>*/}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

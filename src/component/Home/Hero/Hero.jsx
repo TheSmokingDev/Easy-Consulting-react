@@ -24,7 +24,7 @@ const Hero = () => {
                             color="text.primary"
                             sx={{ fontWeight: 700 }}
                         >
-                            Easy Consulting{' '} <br />
+                            MAHO Tech Solutions{' '} <br />
                             Start Your {' '}
                             <Typography
                                 color={'primary'}
@@ -44,9 +44,7 @@ const Hero = () => {
                     </Box>
                     <Box marginBottom={3}>
                         <Typography variant="h6" component="p" color="text.secondary">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, delectus.
-                            <br />
-                            Lorem ipsum dolor sit amet.
+                            Empowering Innovation with Expert Solutions. We are a premier Australian team of seasoned professionals dedicated to developing enterprise-level applications that drive success and growth.
                         </Typography>
                     </Box>
                     <Box
@@ -91,7 +89,7 @@ const Hero = () => {
                     component={LazyLoadImage}
                     height={1}
                     width={1}
-                    src={'https://assets.maccarianagency.com/screenshots/dashboard.png'}
+                    src={'/hero.png'}
                     alt="..."
                     effect="blur"
                     boxShadow={3}

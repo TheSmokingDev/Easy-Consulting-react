@@ -9,17 +9,19 @@ import Header from '../Header/Header';
 import Pricing from '../Pricing/Pricing';
 import Reviews from '../Reviews/Reviews';
 import Services from '../Services/Services';
+import TechStack from "../BrowserSupport/TeckStack";
 
 const Home = () => {
     return (
-        <main>
+        <main style={{ maxWidth: '1640px' ,margin: "auto" }}>
             <Header/>
             <BuildTools/>
             <About/>
             <Services/>
+            <TechStack/>
             <BrowserSupport/>
             <HappyClient/>
-            <Pricing/>
+            {/*<Pricing/>*/}
             <Reviews/>
             <Contact/>
             <Footer/>
