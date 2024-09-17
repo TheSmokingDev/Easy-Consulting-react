@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://coverlads.com.au/sitemap.xml
+Sitemap: https://mahotechsolutions.com.au/sitemap.xml
