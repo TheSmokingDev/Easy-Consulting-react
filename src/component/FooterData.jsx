@@ -23,6 +23,6 @@ export const otherLinks = [
 
 export const footerInfo = [
     {icon: faBuffer, info1: 'MAHO Tech Solutions', id: 1},
-    {icon: faMobileAlt, info1: '+61421012523', info2: 'moe@mahotechsolutions.com.au', id: 2},
+    {icon: faMobileAlt, info1: '', info2: 'contact@mahotechsolutions.com.au', id: 2},
     {icon: faMapMarkedAlt, info1: 'Melbourne CBD', info2: 'Victoria Australia', id: 3}
 ];
