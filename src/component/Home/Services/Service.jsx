@@ -18,7 +18,7 @@ const Service = ({service}) => {
             <Fade bottom duration={2700} distance='70px'>
                 <div className="service-card">
                     <div className="text-center">
-                        <img src={`${img}`} alt="description" className="serviceImg"/>
+                        {img && <img src={`${img}`} alt="" className="serviceImg"/>}
                     </div>
                     <h4 className="serviceName">{name}</h4>
                     <p className="serviceDes">{description}</p>
