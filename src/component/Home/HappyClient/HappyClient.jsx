@@ -9,14 +9,14 @@ const HappyClient = () => {
         // { src: 'https://jmdelectricals.com.au/', number: 623, id: 2 }
     ]
     return (
-        <section className="ourValue" style={{height:'800px', textAlign:'center', color: 'black'}}>
-            <div className="row container mx-auto">
+        <section id="HappyClient">
+            <div className="row container mx-auto" style={{ textAlign:'center', color: 'black', minWidth: '100%'}}>
                 <Typography fontWeight={700} variant={'h4'}>
                     Some of our featured work
                 </Typography><br/>                {
                     workDetails.map(({ src, number, icon, id }) => {
-                        return (<div  style={{width: '100%', display: 'inline-block',height:'400px', marginTop: '20px'}} key={id}>
-                                    <iframe title={'Coverlads'} style={{width:'100%',height:'600px'}} src={src}></iframe>
+                        return (<div  style={{width: '100%', display: 'inline-block',height:'610px', marginTop: '20px', border: '0.2px solid black'}} key={id}>
+                                    <iframe  title={'Coverlads'} style={{width:'100%',height:'600px'}} src={src}></iframe>
                         </div>)
                     })
                 }

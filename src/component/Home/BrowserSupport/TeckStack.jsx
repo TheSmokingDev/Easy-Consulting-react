@@ -54,7 +54,7 @@ const data = [
 
 const TechStack = () => {
     return (
-        <Box p={2} mb={2}>
+        <Box p={2} mb={2} marginTop={'20px'}>
             <Box marginBottom={4} textAlign={'center'}>
 
                 <Typography fontWeight={700} variant={'h4'}>

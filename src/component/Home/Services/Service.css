@@ -19,25 +19,24 @@
 
 .service-card:hover {
     box-shadow: 0 8px 6px -5px rgb(161, 161, 161);
-    margin-top: -1rem;
 }
 .service-card:hover .serviceImg{
     height: 70px;
 }
-.service-card:hover .bookingBox {
-    display: block;
-    margin-bottom: -2rem;
-    transition: 0.4s;
-}
-.service-card:hover .serviceName {
-    padding: 0.2rem 0 0.2rem;
-}
-.service-card:hover .serviceDes {
-    line-height: 1.5;
-}
-.service-card:hover::before {
-    transform: scaleY(1);
-}
+/*.service-card:hover .bookingBox {*/
+/*    display: block;*/
+/*    margin-bottom: -2rem;*/
+/*    transition: 0.4s;*/
+/*}*/
+/*.service-card:hover .serviceName {*/
+/*    padding: 0.2rem 0 0.2rem;*/
+/*}*/
+/*.service-card:hover .serviceDes {*/
+/*    line-height: 1.5;*/
+/*}*/
+/*.service-card:hover::before {*/
+/*    transform: scaleY(1);*/
+/*}*/
 
 .service-card::before{
     content: "";

@@ -33,7 +33,7 @@ const data = [
 
 const BrowserSupport = () => {
     return (
-        <Box p={2} mb={2}>
+        <Box style={{backgroundColor: '#F8F5FF'}} p={2} mb={2} marginTop={'80px'}>
             <Box marginBottom={4} textAlign={'center'}>
                 <Typography
                     sx={{

@@ -7,16 +7,17 @@ const Services = () => {
     
     useEffect(() => {
         setServices([
-            {name: "AI Solutions", description: "We can help advise, build and deploy AI based software to suit your needs", price: "From $200"},
-            {name: "Custom Website Development", description: "Tailored websites to meet your specific needs", price: "From $200"},
-            {name: "Ecommerce Stores", description: "Build and optimize online stores to boost your sales", price: "From $500"},
-            {name: "Brochure Websites", description: "Create professional websites to showcase your business", price: "From $300"},
-            {name: "App Development", description: "Develop custom mobile and web applications to enhance user engagement", price: "From $800"},
-            {name: "Data Pipelines", description: "Design and implement robust data processing systems", price: "Contact for details"},
-            {name: "Cloud Architecture", description: "Develop scalable cloud solutions for your business", price: "Contact for details"},
-            {name: "Deployment & DevOps", description: "Streamline your development and deployment processes", price: "Contact for details"},
-            {name: "Consulting", description: "Expert advice to guide your technology strategy", price: "Contact for details"}
+            {name: "AI Solutions", description: "We build and deploy AI-based software tailored to your needs.", price: "From $200"},
+            {name: "Custom Website Development", description: "Tailored websites designed to fit your specific requirements.", price: "From $200"},
+            {name: "Ecommerce Stores", description: "Develop and optimize online stores to enhance your sales performance.", price: "From $500"},
+            {name: "Brochure Websites", description: "Professional websites created to effectively showcase your business.", price: "From $300"},
+            {name: "App Development", description: "Custom mobile and web apps designed to boost user engagement.", price: "From $800"},
+            {name: "Data Pipelines", description: "Robust data processing systems designed and implemented to your needs.", price: "Contact for details"},
+            {name: "Cloud Architecture", description: "Scalable cloud solutions developed to fit your business requirements.", price: "Contact for details"},
+            {name: "Deployment & DevOps", description: "Streamlined processes for efficient development and deployment.", price: "Contact for details"},
+            {name: "Consulting", description: "Expert advice to guide and refine your technology strategy effectively.", price: "Contact for details"}
         ]);
+
 
     }, [])
 
