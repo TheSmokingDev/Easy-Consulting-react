@@ -20,11 +20,9 @@ const Home = () => {
             <TechStack/>
             <BrowserSupport/>
             <HappyClient/>
-            {/*<Pricing/>*/}
             <Reviews/>
             <Contact/>
             <Footer/>
-            {/* <ScrollTop/>   */}
         </main>
     );
 };
